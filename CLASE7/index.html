@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <!--Etiqueta de fieldset-->
+    <legend>Dtaos personales </legend>
+    <label>Nombre y apellido</label>
+    <input name="nombre" type="text"/><br>
+    <label>sexo</label>
+    <select name="select">
+        <option value="valu1">Hombre</option>
+        <option value="value2">Mujer</option>
+
+    </select><br><br>
+    <label >Edad:</label>
+    <input type="checkbox" name="edad" value="15-20"/>15-20
+    <input type="checkbox" name="" value ="21-31"/>21-31
+    <input type="checkbox" name="" value ="21-31"/>32-41
+    <br><br>
+    
+    <label>Correo</label>
+    <input type="email" name="Nombre"><br><br>
+    <label>Estudio</label>
+
+    <select id="select">
+
+        <optgroup label="Estudios Universitarios">
+            <option> Doctorado</option>
+            <option> Maestria</option>
+            <option> Bachiller</option>
+        </optgroup>
+
+        <optgroup label="Estudios Basicos">
+            <option> Egrasado</option>
+            <option> Tecnico</option>
+            <option> Secundario</option>
+        </optgroup>    
+
+    </select><br><br>
+
+
+    <label>Elige tu nabegador faborito</label>
+    <input list="browsers" name="Mis navegadores"/>
+    <datalist id="browsers">
+        <option value="chrome"></option>
+        <option value="Opera"></option>
+        <option value="Breve"></option>
+        <option value="Safari"></option>
+    </datalist><br><br>
+
+    <textarea name="textarea" cols="50" rows="10">Escrive aqui tu mensaje</textarea>
+    <p> 
+        <input type="submit" value="Enviar"> 
+        <input type="reset" value="Borrar">
+    </p>
+    
+
+
+</body>
+</html>
