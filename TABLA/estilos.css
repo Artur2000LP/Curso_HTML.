@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Tangerine:wght@700&display=swap');
+
+*{
+    text-align: center; /*se centra el texto del body*/
+    margin: auto; /*un margen aunto para sentrar mi tabla */
+    padding: 30px; /* altura*/
+    /*font-style: italic;*/
+    
+}
+
+table{
+    width:60%; /*un ancho de 60%*/
+    padding: 50%; 
+    box-sizing:border-box; /*el borde de caja*/
+    margin-bottom:15px; /*un margen inferior*/
+    border-collapse:collapse; /*colapso de tabla une las reguines separadas */
+    border-spacing:0; /*espacio de borde 0*/
+    border-radius:5px; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(240, 248, 255, 0.519);
+}
+table th,table td{
+    padding:10px; /*altura */
+    text-align:center;
+    border-width:1.5px; /*ancho, grosor del borde*/
+    border-style:solid; /*eltilo del borde solido*/
+    vertical-align:middle /*aliniacion vertical media*/
+}
+
+table th.clear{
+    border:0;
+    background:none; /*fondo ninguno*/
+    
+}
+table th{
+    background-color: rgba(169, 169, 169, 0.475);
+}
+table tr:first-child td{ 
+    box-shadow: inset 0px 4px 3px -2px rgba(0,0,0,.06);
+    
+}
+
+table tr:nth-child(2n) td{
+   background:rgba(0,0,0,0.01)
+}
+
+b,strong,dt{
+    font-weight:700;
+    text-align: center;
+    
+}
+code,q{
+    padding:2px 4px;
+    white-space:nowrap;
+    margin:0 2px;
+    color:#2991d6
+}
+code,pre,q{
+
+    font-family:  monospace,'Roboto Mono';
+    /*font-family: 'Tangerine', cursive;*/
+    border:1px solid #e8e8e8;
+    background:#fff;
+    border-radius:3px;
+}
+

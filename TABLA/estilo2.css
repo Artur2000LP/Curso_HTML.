@@ -1,0 +1,35 @@
+/*
+body{
+    color:var(--text-primary);
+    background-color:var(--background-primary);
+    margin:0;padding:0;
+    height:100%;font:var(--type-body-l)
+}
+*{box-sizing:border-box;}
+.output section{height:100%;text-align:center}
+.output section{display:flex;align-items:center;justify-content:center}
+*/
+.output section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.output section {
+    height: 100%;
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+user agent stylesheet
+section {
+    display: block;
+}
+body {
+    color: var(--text-primary);
+    background-color: var(--background-primary);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font: var(--type-body-l);
+}
