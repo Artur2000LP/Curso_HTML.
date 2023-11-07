@@ -1,0 +1,27 @@
+*{/*general o universal*/
+    color:blue;
+}
+h1{/*se selecciona por tipo*/
+    color:black;
+}
+.titulo-h2 {/*selecciona por clase;  nombre de la clase la clase que es creada en index*/
+    color:aqua;    
+}
+#id-element{/*selecciona por id ;*/
+    color:blueviolet;
+}
+[atrubuto="color"]{/*selecciona por atributo*/
+    color:brown;
+}
+h2 p{/*seleccion por asendente 1.1*/
+    color:cornflowerblue;
+}
+h2 b{/*seleccion por asendente 1.2*/
+    color:darkred;
+}
+h2 b i{/*seleccion por asendente 1.3*/
+    color:gold;
+}
+h2 i:hover { /*seleccciopn por seudoclas*/
+    color:lime;
+}
