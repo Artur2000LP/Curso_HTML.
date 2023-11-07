@@ -1,0 +1,25 @@
+*{
+    background-color: cornflowerblue;
+    width: 100%;
+    padding: 2px;
+    border: 2px solid black;
+}
+h1{
+    color:blue;
+    text-align: center;
+    font-size: 30px;
+    background-color: aliceblue;
+   
+}
+.clase{
+    color:aquamarine;
+    background-color:chartreuse;
+}
+#navegacion{
+    color:blue;
+    font-size: 20px;
+}
+
+aside,h3{
+    font-size: 50px;
+}
